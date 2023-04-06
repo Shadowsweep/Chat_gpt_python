@@ -1,12 +1,12 @@
-#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
+#import library open ai using pip install openai
 import os
 import openai
 from aiogram import Bot,Dispatcher,executor, types
 
-bot = Bot(token='6084022516:AAH_Nj5tzBxJbZTxyQs8rSMWJIToF2cDCr8')
+bot = Bot(token='key of bot')
 dp = Dispatcher(bot)
 
-openai.api_key = "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"
+openai.api_key = "key of openai"
 
 
 @dp.message_handler(commands=['start','help'])
